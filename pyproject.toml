@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "roadside-fcn-segmentation"
+version = "0.2.0"
+description = "TensorFlow 2 FCN-style roadside segmentation with validated masks and ensemble inference"
+requires-python = ">=3.11,<3.14"
+dependencies = ["numpy>=1.26,<3", "Pillow>=11,<13"]
+[project.optional-dependencies]
+cpu = ["tensorflow-cpu==2.21.0"]
+tensorflow = ["tensorflow==2.21.0"]
+test = ["pytest>=8,<10", "ruff==0.17.1"]
+[project.scripts]
+roadseg = "roadseg.cli:main"
+[tool.setuptools.packages.find]
+include = ["roadseg*"]
+[tool.pytest.ini_options]
+testpaths = ["tests"]

@@ -1,0 +1,13 @@
+{
+  "classes": ["background", "road"],
+  "height": 256,
+  "width": 512,
+  "backbone": "vgg19",
+  "decoder_channels": 128,
+  "imagenet_weights": false,
+  "train_backbone": true,
+  "batch_size": 1,
+  "epochs": 20,
+  "learning_rate": 0.0001,
+  "seed": 42
+}

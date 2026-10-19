@@ -1,0 +1,66 @@
+{
+  "repository": "zohaibjan/ensemble_fcn_semantic_segmentation",
+  "commit": "cd95fa091947c1bf5e54e10b7aac2ceb0e1faf8d",
+  "files": [
+    {
+      "original_path": "README.md",
+      "archived_path": "legacy/README.md",
+      "git_blob_sha": "93a836c0f47fa78500b31eccb555c9ed710aea3b"
+    },
+    {
+      "original_path": "TensorflowUtils.py",
+      "archived_path": "legacy/TensorflowUtils.py",
+      "git_blob_sha": "dd72917771bdd15fac6670a3b8c263d3f3879ee0"
+    },
+    {
+      "original_path": "black2color.py",
+      "archived_path": "legacy/black2color.py",
+      "git_blob_sha": "8de56082a421bc618aa66c8c45bbbe45942aec74"
+    },
+    {
+      "original_path": "distance.py",
+      "archived_path": "legacy/distance.py",
+      "git_blob_sha": "57b6920757126af72b55a19454c6b7f9aeba1dab"
+    },
+    {
+      "original_path": "distance_V1.py",
+      "archived_path": "legacy/distance_V1.py",
+      "git_blob_sha": "2fb922d3fb7e7c5e5ee417afd4c14c05a8a61d81"
+    },
+    {
+      "original_path": "distance_v2.py",
+      "archived_path": "legacy/distance_v2.py",
+      "git_blob_sha": "b5d305487154b0efd60baa3acf4bbe534a030073"
+    },
+    {
+      "original_path": "fuse_models.py",
+      "archived_path": "legacy/fuse_models.py",
+      "git_blob_sha": "90fc3fce30bd5f16119705e311446be176131b32"
+    },
+    {
+      "original_path": "lanePredict.py",
+      "archived_path": "legacy/lanePredict.py",
+      "git_blob_sha": "e6fec309028e4d7b7fe88da8050dbaef0e796032"
+    },
+    {
+      "original_path": "main.py",
+      "archived_path": "legacy/main.py",
+      "git_blob_sha": "2b67238fc3619ff7d87cd42c479240e7254b5bae"
+    },
+    {
+      "original_path": "segmenter.py",
+      "archived_path": "legacy/segmenter.py",
+      "git_blob_sha": "aa47686bc4290712390f48968777353298932a8c"
+    },
+    {
+      "original_path": "test_image_reader.py",
+      "archived_path": "legacy/test_image_reader.py",
+      "git_blob_sha": "53b6e4a385a8b668c31df218f2b22aa69e2ecaa2"
+    },
+    {
+      "original_path": "test_main.py",
+      "archived_path": "legacy/test_main.py",
+      "git_blob_sha": "9ce21c074b03f375d1fb6e676a012589fa621747"
+    }
+  ]
+}
