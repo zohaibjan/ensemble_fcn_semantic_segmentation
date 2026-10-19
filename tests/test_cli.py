@@ -3,6 +3,7 @@ import subprocess
 import sys
 
 import pytest
+
 from roadseg.cli import main
 from roadseg.config import Config
 

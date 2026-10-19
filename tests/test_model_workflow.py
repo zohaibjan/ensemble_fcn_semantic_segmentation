@@ -5,6 +5,7 @@ import numpy as np
 import pytest
 import tensorflow as tf
 from PIL import Image
+
 from roadseg.config import Config
 from roadseg.demo import generate
 from roadseg.inference import Predictor, evaluate, predict_folder

@@ -3,6 +3,7 @@ import json
 import numpy as np
 import pytest
 from PIL import Image
+
 from roadseg.fusion import fuse_binary_arrays, fuse_folders
 from roadseg.inference import normalized_weights
 from roadseg.metrics import Confusion

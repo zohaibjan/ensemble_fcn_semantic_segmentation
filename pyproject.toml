@@ -17,3 +17,10 @@ roadseg = "roadseg.cli:main"
 include = ["roadseg*"]
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+
+[tool.ruff]
+target-version = "py311"
+src = ["."]
+
+[tool.ruff.lint.isort]
+known-first-party = ["roadseg"]

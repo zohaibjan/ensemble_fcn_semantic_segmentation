@@ -3,6 +3,7 @@ import shutil
 import numpy as np
 import pytest
 from PIL import Image
+
 from roadseg.config import Config
 from roadseg.data import ensure_disjoint, inspect_split, make_dataset, read_pair
 from roadseg.demo import generate
